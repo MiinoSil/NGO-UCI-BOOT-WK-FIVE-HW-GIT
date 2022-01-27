@@ -31,7 +31,9 @@ var tasksHour17 = JSON.parse(localStorage.getItem('hour17')) || '';
 var tasksHour18 = JSON.parse(localStorage.getItem('hour17')) || '';
 
 // Format Date and time to display the day and date
-currentDateTimePEl.text(moment().format('dddd, MMMM Do YYYY'));
+var CurrentDateTimeUpdating = function () {
+    currentDateTimePEl.text(moment().format('dddd, MMMM Do YYYY h:mm:ss a'));
+}
 
 // Generate rows by looping through hours array
 $.each(hoursArr, function (index, value) {
@@ -233,4 +235,11 @@ $("#saveBtn9").on("click", "i.fa-save", function () {
     localStorage.setItem('hour18', JSON.stringify(task9));
 })
 
-checkPastPresentFuture()
+// initial function upon page load
+checkPastPresentFuture();
+
+// Set time interval to rerun functions
+setInterval(checkPastPresentFuture, 1800000);
+
+setInterval(CurrentDateTimeUpdating, 1000);
+
