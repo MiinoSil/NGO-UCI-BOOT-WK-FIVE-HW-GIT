@@ -237,6 +237,7 @@ $("#saveBtn9").on("click", "i.fa-save", function () {
 
 // initial function upon page load
 checkPastPresentFuture();
+CurrentDateTimeUpdating();
 
 // Set time interval to rerun functions
 setInterval(checkPastPresentFuture, 1800000);
