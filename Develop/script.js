@@ -233,4 +233,4 @@ $("#saveBtn9").on("click", "i.fa-save", function () {
     localStorage.setItem('hour18', JSON.stringify(task9));
 })
 
-checkPastPresentFuture();
+checkPastPresentFuture()

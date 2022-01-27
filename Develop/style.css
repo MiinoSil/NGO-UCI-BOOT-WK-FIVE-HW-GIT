@@ -66,16 +66,16 @@ textarea {
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 48px;
   transition: all 0.3s ease-in-out;
 }
 
 .fa-save {
   padding: 20px 0px 20px 10px;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .fa-trash {
   padding: 20px 0px 20px 10px;
-  font-size: 36px;
+  font-size: 32px;
 }
