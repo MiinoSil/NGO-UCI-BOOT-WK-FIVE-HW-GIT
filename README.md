@@ -3,7 +3,7 @@
 ## Links to GIT-Page and GIT-REPO
 <https://miinosil.github.io/NGO-UCI-BOOT-WK-FIVE-HW-GIT/>
 
-<https://github.com/MiinoSil/NGO-UCI-BOOT-WK-FIVE-HW-GIT/settings/pages>
+<https://github.com/MiinoSil/NGO-UCI-BOOT-WK-FIVE-HW-GIT>
 ## Your Task
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
